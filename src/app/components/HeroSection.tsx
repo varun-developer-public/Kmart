@@ -1,3 +1,4 @@
+import hero2 from '../../assets/hero2.png';
 import { Button } from './ui/button';
 import { ArrowRight, Tag, Truck, Shield } from 'lucide-react';
 
@@ -12,7 +13,7 @@ export default function HeroSection() {
         <div className="absolute top-1/4 right-1/4 w-96 h-96 bg-gradient-to-br from-yellow-200/40 to-transparent rounded-full blur-3xl"></div>
         <div className="absolute bottom-1/4 left-1/3 w-64 h-64 bg-gradient-to-br from-orange-300/30 to-transparent rounded-full blur-2xl"></div>
 
-        <div className="relative z-10 px-4 md:px-8 py-6 md:py-8 flex flex-col md:flex-row items-center justify-between gap-6">
+        <div className="relative z-10 px-4 md:px-8 py-6 md:py-8 flex flex-col md:flex-row items-center justify-between gap-6 h-100">
           {/* Left Side - Promotional Content */}
           <div className="flex-1 max-w-lg">
             <div className="inline-flex items-center gap-2 bg-black/10 backdrop-blur-sm px-3 py-1.5 rounded-full mb-4">
@@ -28,7 +29,6 @@ export default function HeroSection() {
             <p className="text-base md:text-lg mb-6 text-black/80 max-w-md">
               Discover amazing deals on premium products. Shop now and save up to 50% on selected items!
             </p>
-
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-3 mb-6">
               <Button 
@@ -70,13 +70,13 @@ export default function HeroSection() {
               
               {/* Product Image */}
               <img 
-                src="https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=800"
+                src={hero2}
                 alt="Happy woman with gift" 
-                className="relative z-10 w-full h-full object-cover object-bottom animate-float scale-155"
+                className="relative z-10 w-full h-full object-cover object-bottom animate-float scale-78"
               />
               
               {/* Floating badge */}
-              <div className="absolute top-2 right-2 bg-red-500 text-white px-4 py-2 rounded-full shadow-xl transform rotate-12 z-20">
+              <div className="absolute top-20 right-2 bg-red-500 text-white px-4 py-2 rounded-full shadow-xl transform rotate-12 z-20">
                 <span className="text-base font-bold">50% OFF</span>
               </div>
             </div>
