@@ -1,9 +1,5 @@
-import image_a847ad3ca0c1724059fe6540fa9fee96b3abe2c4 from 'figma:asset/a847ad3ca0c1724059fe6540fa9fee96b3abe2c4.png';
-import image_08d1d53a6b9aca6e787e6c903ed1d89d82feb144 from 'figma:asset/08d1d53a6b9aca6e787e6c903ed1d89d82feb144.png';
-import heroImage from 'figma:asset/683e62ba9427ca8636280c9d2b4eaaf2599eae87.png';
 import { Button } from './ui/button';
 import { ArrowRight, Tag, Truck, Shield } from 'lucide-react';
-import productImage from 'figma:asset/11340ce1f080056b66ec9ae3ff12e45b895e9137.png';
 
 export default function HeroSection() {
   return (
@@ -74,7 +70,7 @@ export default function HeroSection() {
               
               {/* Product Image */}
               <img 
-                src={image_a847ad3ca0c1724059fe6540fa9fee96b3abe2c4}
+                src="https://images.pexels.com/photos/1303081/pexels-photo-1303081.jpeg?auto=compress&cs=tinysrgb&w=800"
                 alt="Happy woman with gift" 
                 className="relative z-10 w-full h-full object-cover object-bottom animate-float scale-155"
               />

@@ -3,7 +3,6 @@ import { X, Mail, Phone, Eye, EyeOff, Lock } from 'lucide-react';
 import { Button } from './ui/button';
 import { useAuth } from '../contexts/AuthContext';
 import { toast } from 'sonner';
-import socialLoginButtons from 'figma:asset/a4fc0a96e456fa334cbffddc6cff187ab14c58b7.png';
 
 interface LoginModalProps {
   onClose: () => void;
