@@ -8,7 +8,6 @@ import { useCart } from '../contexts/CartContext';
 import { useWishlist } from '../contexts/WishlistContext';
 import { useAuth } from '../contexts/AuthContext';
 import LoginModal from './LoginModal';
-import logo from 'figma:asset/e9a08efa76ab6f92d8722dc30ba6a6f878d31c96.png';
 import { toast } from 'sonner';
 
 const categories = [
